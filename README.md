@@ -21,7 +21,6 @@ Follow the instructions below to access and decrypt the encrypted file.
      ```bash
      openssl enc -d -aes-256-cbc -in enc_file -out dec_file -pass file:./key.txt
      ```
-   - Replace `enc_file` with the name of your encrypted file and `key.txt` with the downloaded key file.
 
 5. **View the Content of the Decrypted File**
    - Once the file is decrypted, a new file (`dec_file`) will be created. To view its contents, run the following command:
